@@ -1,7 +1,7 @@
 import express from "express";
 import React from "react";
 import { renderToString } from "react-dom/server";
-import App from "../common/App";
+import App from "../client/components/App";
 
 const app = express();
 
